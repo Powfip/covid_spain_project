@@ -27,7 +27,6 @@ out/
 
 # --- Datos y Bases de Datos ---
 # No subimos los datos crudos ni procesados si son muy pesados
-# (Opcional: descomenta si no quieres subir tus CSVs a GitHub)
 # data/raw/*.csv
 # data/processed/*.csv
 
