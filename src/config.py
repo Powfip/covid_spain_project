@@ -19,7 +19,7 @@ DB_DIR = BASE_DIR / "database"
 FIGURES_DIR = BASE_DIR / "figures"
 
 # Me aseguro que existen las carpetas
-for path in [DATA_DIR, RAW_DATA_DIR, PROCESSED_DATA_DIR, DB_DIR]:
+for path in [DATA_DIR, RAW_DATA_DIR, PROCESSED_DATA_DIR, DB_DIR, FIGURES_DIR]:
     path.mkdir(parents=True,exist_ok=True)
 
 # Confirmamos con un print que las rutas fueron creadas
