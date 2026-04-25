@@ -1,17 +1,45 @@
-# Entorno virtual
-.venv/
+# --- IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
 
-# Variables de entorno (credenciales Spotify)
+# --- Entorno virtual ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- Variables de entorno (SEGURIDAD) ---
 .env
 
-# Python cache
+# --- Python cache ---
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.pytest_cache/
+.coverage
 
-# Jupyter checkpoints
+# --- Jupyter Notebooks ---
 .ipynb_checkpoints/
+out/
 
-# macOS
+# --- Datos y Bases de Datos ---
+# No subimos los datos crudos ni procesados si son muy pesados
+# (Opcional: descomenta si no quieres subir tus CSVs a GitHub)
+# data/raw/*.csv
+# data/processed/*.csv
+
+# Bases de datos locales (SQLite)
+*.db
+*.sqlite3
+
+# --- Sistema Operativo ---
 .DS_Store
+Thumbs.db
 
+# --- Gráficos y Reportes ---
+# Si quieres que los gráficos se generen siempre por código, podrías ignorarlos,
+# pero si quieres que se vean en el repo, deja esta carpeta fuera del ignore.
+# reports/figures/*.png
