@@ -23,4 +23,4 @@ for path in [DATA_DIR, RAW_DATA_DIR, PROCESSED_DATA_DIR, DB_DIR, FIGURES_DIR]:
     path.mkdir(parents=True,exist_ok=True)
 
 # Confirmamos con un print que las rutas fueron creadas
-print(f"Proyecto configurado en: {BASE_DIR}")
+print(f"Rutas Creadas correctamente.")
