@@ -113,6 +113,22 @@ covid_spain_project/
 
 ---
 
+## 🖥️ Vista Previa del Dashboard
+
+### Panel Principal — KPIs y Análisis Comparativo
+
+![Panel de control COVID-19 España](figures/dashboard_kpis.png)
+
+Vista general con los indicadores clave: **12,5M de casos**, **672K hospitalizados** y **120K defunciones**, junto con los donut charts del Top 5 provincial en defunciones y hospitalizaciones.
+
+### Análisis Comparativo Top 5 Provincias
+
+![Análisis comparativo top 5 provincias](figures/dashboard_comparativo.png)
+
+Madrid concentra el **42% de las defunciones** y el **52.2% de las hospitalizaciones** entre las cinco provincias más afectadas, muy por encima del resto.
+
+---
+
 ## ⚙️ Instalación y Configuración
 
 **1. Clonar el repositorio:**
