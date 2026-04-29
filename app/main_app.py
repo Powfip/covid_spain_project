@@ -76,7 +76,7 @@ rango_fechas = st.sidebar.slider(
 # 5. LÓGICA DE FILTRADO (El "Cerebro" de la App)
 if provincia_seleccionada != "Todas":
     # Filtramos por la provincia elegida
-    df_filtrado = df[df["provincia_iso"] == provincia_seleccionada].copy()
+    df_filtrado = df[df["provincia_nombre"] == provincia_seleccionada].copy()
 else:
     # Si es "Todas", agrupamos por fecha y sumamos los valores de todas las provincias
     df_filtrado = df.groupby("fecha").sum(numeric_only=True).reset_index()
